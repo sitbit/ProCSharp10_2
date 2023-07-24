@@ -9,6 +9,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMultiThreadApp", "Sim
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWithThreads", "AddWithThreads\AddWithThreads.csproj", "{52DCAE03-561E-4B91-822C-792CCDE4953F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundThreads", "BackgroundThreads\BackgroundThreads.csproj", "{7706BCA3-44CB-40E4-8F7B-A621E545408C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadedPrinting", "MultiThreadedPrinting\MultiThreadedPrinting.csproj", "{4EE2D4A2-D6E9-4550-840C-E37902184DDB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -30,5 +34,13 @@ Global
 		{52DCAE03-561E-4B91-822C-792CCDE4953F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{52DCAE03-561E-4B91-822C-792CCDE4953F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{52DCAE03-561E-4B91-822C-792CCDE4953F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7706BCA3-44CB-40E4-8F7B-A621E545408C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7706BCA3-44CB-40E4-8F7B-A621E545408C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7706BCA3-44CB-40E4-8F7B-A621E545408C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7706BCA3-44CB-40E4-8F7B-A621E545408C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
