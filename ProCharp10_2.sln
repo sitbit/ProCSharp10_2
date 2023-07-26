@@ -13,6 +13,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundThreads", "Backgr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadedPrinting", "MultiThreadedPrinting\MultiThreadedPrinting.csproj", "{4EE2D4A2-D6E9-4550-840C-E37902184DDB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerApp", "TimerApp\TimerApp.csproj", "{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolApp", "ThreadPoolApp\ThreadPoolApp.csproj", "{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParallelismWithForEach", "DataParallelismWithForEach\DataParallelismWithForEach.csproj", "{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -42,5 +48,17 @@ Global
 		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4EE2D4A2-D6E9-4550-840C-E37902184DDB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
