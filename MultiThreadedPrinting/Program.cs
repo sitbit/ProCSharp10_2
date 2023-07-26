@@ -16,4 +16,6 @@ foreach (Thread t in threads)
 {
     t.Start();
 }
+
+Console.WriteLine("Press <Enter> to continue...");
 Console.ReadLine();
