@@ -7,7 +7,7 @@ public class Printer
     {
         lock (threadLock)
         {
-            Console.WriteLine($"-> {Thread.CurrentThread.ManagedThreadId} is executing PrintNumbers()");
+            Console.WriteLine($"-> {Environment.CurrentManagedThreadId} is executing PrintNumbers()");
             Console.WriteLine("Your numbers:");
             for (int i = 0; i < 10; ++i)
             {
