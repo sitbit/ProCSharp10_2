@@ -5,8 +5,35 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:PictureHandlerWithAsyncAwait"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="Picture Handler With Async/Await" Height="400" Width="800">
     <Grid>
-
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Label Grid.Row="0" Grid.Column="0">
+            Feel free to type here while the images are being processed.
+        </Label>
+        <TextBox Grid.Row="1" Grid.Column="0" Margin="10, 10, 10, 10"/>
+        <Grid Grid.Row="2" Grid.Column="0">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+            <Button x:Name="cmdCancel" Grid.Row="0" Grid.Column="0" Margin="10, 10, 10, 10" Padding="20, 5, 20, 5" Click="CmdCancel_Click">
+                Cancel
+            </Button>
+            <Button x:Name="cmdProcess" Grid.Row="0" Grid.Column="2" Margin="10, 10, 10, 10" Padding="20, 5, 20, 5" Click="CmdProcess_Click">
+                Click to Flip Your Images!
+            </Button>
+        </Grid>
+        <DockPanel Grid.Row="3" Grid.Column="0">
+            <StatusBar DockPanel.Dock="Bottom">
+                <StatusBarItem x:Name="sbiStatus">Status:</StatusBarItem>
+            </StatusBar>
+        </DockPanel>
     </Grid>
 </Window>
