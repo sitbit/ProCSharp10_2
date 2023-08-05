@@ -7,9 +7,12 @@ string _theEbook = "";
 
 Console.WriteLine("***** My EBook Reader *****\n");
 
-GetBook();
+//GetBook();
+Task task = GetBookAsync();
 Console.WriteLine("Downloading the book...");
+await task;
 
+Console.WriteLine("Press <Enter> to continue...");
 Console.ReadLine();
 
 string FindLongestWord(string[] words)
@@ -28,6 +31,7 @@ string[] FindTenMostCommon(string[] words)
                     select g.Key;
     return frequency.Take(10).ToArray();
 }
+#pragma warning disable CS8321 // Local function is declared but never used
 void GetBook()
 {
 #pragma warning disable SYSLIB0014 // Type or member is obsolete
@@ -41,6 +45,14 @@ void GetBook()
     };
     wc.DownloadStringAsync(new Uri("http://www.gutenberg.org/files/98/98-0.txt"));
 }
+async Task GetBookAsync()
+{
+    HttpClient client = new();
+    _theEbook = await client.GetStringAsync("http://www.gutenberg.org/files/98/98-0.txt");
+    Console.WriteLine("Download complete.");
+    GetStats();
+}
+#pragma warning restore CS8321 // Local function is declared but never used
 void GetStats()
 {
     char[] splitValues = new char[] { ' ', '\u000A', ',', '.', ';', ':', '-', '?', '!', '/' };
