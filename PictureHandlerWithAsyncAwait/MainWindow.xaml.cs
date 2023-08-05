@@ -13,7 +13,7 @@ namespace PictureHandlerWithAsyncAwait
     public partial class MainWindow : Window
     {
         private CancellationTokenSource _cancelToken;
-        private readonly int sleepTime = 1000;
+        private readonly int sleepTime = 2_000;
 
         public MainWindow()
         {
@@ -101,7 +101,8 @@ namespace PictureHandlerWithAsyncAwait
                         bitmap.RotateFlip(RotateFlipType.Rotate180FlipNone);
                         bitmap.Save(Path.Combine(outDir, filename));
                         Thread.Sleep(sleepTime);
-                    }, token);
+                    },
+                    token);
                 }
                 catch (OperationCanceledException ex)
                 {
