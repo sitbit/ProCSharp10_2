@@ -27,6 +27,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAsync", "CSharpAsync\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureHandlerWithAsyncAwait", "PictureHandlerWithAsyncAwait\PictureHandlerWithAsyncAwait.csproj", "{2F9E82C7-242B-446A-B427-61CAC281C707}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncStream", "AsyncStream\AsyncStream.csproj", "{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,5 +86,9 @@ Global
 		{2F9E82C7-242B-446A-B427-61CAC281C707}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2F9E82C7-242B-446A-B427-61CAC281C707}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2F9E82C7-242B-446A-B427-61CAC281C707}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
