@@ -29,6 +29,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureHandlerWithAsyncAwai
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncStream", "AsyncStream\AsyncStream.csproj", "{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNamespaces", "CustomNamespaces\CustomNamespaces.csproj", "{C81B3E95-47B5-416C-B30F-9CC8F1462306}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -90,5 +92,9 @@ Global
 		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C81B3E95-47B5-416C-B30F-9CC8F1462306}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C81B3E95-47B5-416C-B30F-9CC8F1462306}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C81B3E95-47B5-416C-B30F-9CC8F1462306}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C81B3E95-47B5-416C-B30F-9CC8F1462306}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
