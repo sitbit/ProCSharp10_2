@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net6.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>disable</Nullable>
+        <Copyright>Copyright 2023</Copyright>
+        <Authors>J. Kempe</Authors>
+        <Company>LHSC</Company>
+        <Product>Car Database</Product>
+        <PackageId>CarLibrary</PackageId>
+        <Description>An AWESOME library of cars!</Description>
+        <AssemblyVersion>1.1.0.0</AssemblyVersion>
+        <FileVersion>1.1.0.1</FileVersion>
+        <Version>1.0.3</Version>
+        <Title>My Car Classes</Title>
+    </PropertyGroup>
+
+</Project>

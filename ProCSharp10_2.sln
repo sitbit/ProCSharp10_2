@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNamespaces", "CustomN
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationFiles", "ConfigurationFiles\ConfigurationFiles.csproj", "{37250599-70A9-473D-A98A-A4E846C95A0C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{FBF6D419-BDB2-41A0-A58C-01314F6791CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCarClient", "CSharpCarClient\CSharpCarClient.csproj", "{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -102,5 +106,13 @@ Global
 		{37250599-70A9-473D-A98A-A4E846C95A0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{37250599-70A9-473D-A98A-A4E846C95A0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{37250599-70A9-473D-A98A-A4E846C95A0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FBF6D419-BDB2-41A0-A58C-01314F6791CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FBF6D419-BDB2-41A0-A58C-01314F6791CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FBF6D419-BDB2-41A0-A58C-01314F6791CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FBF6D419-BDB2-41A0-A58C-01314F6791CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
