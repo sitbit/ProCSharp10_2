@@ -1,4 +1,7 @@
-﻿namespace CarLibrary;
+﻿//  Handled in .csproj
+//using System.Runtime.CompilerServices;
+//[assembly:InternalsVisibleTo("CSharpCarClient")]
+namespace CarLibrary;
 public abstract class Car
 {
     public string PetName { get; set; }
@@ -21,3 +24,4 @@ public abstract class Car
         MaxSpeed = maxSpeed;
     }
 }
+internal class MyInternalClass { }

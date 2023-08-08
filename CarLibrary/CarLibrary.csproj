@@ -14,6 +14,12 @@
         <FileVersion>1.1.0.1</FileVersion>
         <Version>1.0.3</Version>
         <Title>My Car Classes</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
     </PropertyGroup>
+    <ItemGroup>
+        <AssemblyAttribute Include="System.Runtime.CompilerServices.InternalsVisibleToAttribute">
+            <_Parameter1>CSharpCarClient</_Parameter1>
+        </AssemblyAttribute>
+    </ItemGroup>
 
 </Project>
