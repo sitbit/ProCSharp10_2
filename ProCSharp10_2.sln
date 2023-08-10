@@ -41,6 +41,8 @@ Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarClientVB", "CarClientVB\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbingPaths", "ProbingPaths\ProbingPaths.csproj", "{78B1CF0E-F4DA-49FF-8B46-7E324DA15424}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTypeViewer", "MyTypeViewer\MyTypeViewer.csproj", "{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -126,5 +128,9 @@ Global
 		{78B1CF0E-F4DA-49FF-8B46-7E324DA15424}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{78B1CF0E-F4DA-49FF-8B46-7E324DA15424}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{78B1CF0E-F4DA-49FF-8B46-7E324DA15424}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
