@@ -9,6 +9,8 @@
 *.user
 *.userosscache
 *.sln.docstates
+CarLibrary.il
+CarLibrary.res
 
 ModifiedPics/
 Modified/
