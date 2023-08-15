@@ -3,59 +3,64 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadStats", "ThreadStats\ThreadStats.csproj", "{C326C118-E1D2-41B7-9E40-0FBEBBCEAF6E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadStats", "ThreadStats\ThreadStats.csproj", "{C326C118-E1D2-41B7-9E40-0FBEBBCEAF6E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleMultiThreadApp", "SimpleMultiThreadApp\SimpleMultiThreadApp.csproj", "{13CED052-0722-47C9-8EF7-DAF3CF0A8F00}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SimpleMultiThreadApp", "SimpleMultiThreadApp\SimpleMultiThreadApp.csproj", "{13CED052-0722-47C9-8EF7-DAF3CF0A8F00}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AddWithThreads", "AddWithThreads\AddWithThreads.csproj", "{52DCAE03-561E-4B91-822C-792CCDE4953F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AddWithThreads", "AddWithThreads\AddWithThreads.csproj", "{52DCAE03-561E-4B91-822C-792CCDE4953F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BackgroundThreads", "BackgroundThreads\BackgroundThreads.csproj", "{7706BCA3-44CB-40E4-8F7B-A621E545408C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BackgroundThreads", "BackgroundThreads\BackgroundThreads.csproj", "{7706BCA3-44CB-40E4-8F7B-A621E545408C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MultiThreadedPrinting", "MultiThreadedPrinting\MultiThreadedPrinting.csproj", "{4EE2D4A2-D6E9-4550-840C-E37902184DDB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MultiThreadedPrinting", "MultiThreadedPrinting\MultiThreadedPrinting.csproj", "{4EE2D4A2-D6E9-4550-840C-E37902184DDB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TimerApp", "TimerApp\TimerApp.csproj", "{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TimerApp", "TimerApp\TimerApp.csproj", "{54530A46-1CA1-4B46-83ED-F3A4C8F38FD8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ThreadPoolApp", "ThreadPoolApp\ThreadPoolApp.csproj", "{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ThreadPoolApp", "ThreadPoolApp\ThreadPoolApp.csproj", "{A6DF36F4-A4EE-4A40-9EE3-E27E52BF7D92}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DataParallelismWithForEach", "DataParallelismWithForEach\DataParallelismWithForEach.csproj", "{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DataParallelismWithForEach", "DataParallelismWithForEach\DataParallelismWithForEach.csproj", "{0804C17D-975A-40E1-BDC0-5E81F2ABF47A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyEBookReader", "MyEBookReader\MyEBookReader.csproj", "{E4426A63-8FD5-468E-ADF0-6F98F6AB640E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyEBookReader", "MyEBookReader\MyEBookReader.csproj", "{E4426A63-8FD5-468E-ADF0-6F98F6AB640E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PLINQDataProcessingWithCancellation", "PLINQDataProcessingWithCancellation\PLINQDataProcessingWithCancellation.csproj", "{18A540B6-F765-4DFF-9E05-C2E281F6AED0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PLINQDataProcessingWithCancellation", "PLINQDataProcessingWithCancellation\PLINQDataProcessingWithCancellation.csproj", "{18A540B6-F765-4DFF-9E05-C2E281F6AED0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpAsync", "CSharpAsync\CSharpAsync.csproj", "{139A32E9-7D18-4F70-A92A-62694444D851}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpAsync", "CSharpAsync\CSharpAsync.csproj", "{139A32E9-7D18-4F70-A92A-62694444D851}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PictureHandlerWithAsyncAwait", "PictureHandlerWithAsyncAwait\PictureHandlerWithAsyncAwait.csproj", "{2F9E82C7-242B-446A-B427-61CAC281C707}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "PictureHandlerWithAsyncAwait", "PictureHandlerWithAsyncAwait\PictureHandlerWithAsyncAwait.csproj", "{2F9E82C7-242B-446A-B427-61CAC281C707}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsyncStream", "AsyncStream\AsyncStream.csproj", "{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AsyncStream", "AsyncStream\AsyncStream.csproj", "{5FB9E91F-4985-450F-8ED7-3E2E6F4DBA7F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CustomNamespaces", "CustomNamespaces\CustomNamespaces.csproj", "{C81B3E95-47B5-416C-B30F-9CC8F1462306}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CustomNamespaces", "CustomNamespaces\CustomNamespaces.csproj", "{C81B3E95-47B5-416C-B30F-9CC8F1462306}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConfigurationFiles", "ConfigurationFiles\ConfigurationFiles.csproj", "{37250599-70A9-473D-A98A-A4E846C95A0C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConfigurationFiles", "ConfigurationFiles\ConfigurationFiles.csproj", "{37250599-70A9-473D-A98A-A4E846C95A0C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{FBF6D419-BDB2-41A0-A58C-01314F6791CD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLibrary", "CarLibrary\CarLibrary.csproj", "{FBF6D419-BDB2-41A0-A58C-01314F6791CD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpCarClient", "CSharpCarClient\CSharpCarClient.csproj", "{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CSharpCarClient", "CSharpCarClient\CSharpCarClient.csproj", "{4303F2E5-5BEE-428B-B92D-F2411B35EC0D}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "CarClientVB", "CarClientVB\CarClientVB.vbproj", "{AA925B62-BD3E-49DD-A162-73EF78A662F3}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "CarClientVB", "CarClientVB\CarClientVB.vbproj", "{AA925B62-BD3E-49DD-A162-73EF78A662F3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ProbingPaths", "ProbingPaths\ProbingPaths.csproj", "{78B1CF0E-F4DA-49FF-8B46-7E324DA15424}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ProbingPaths", "ProbingPaths\ProbingPaths.csproj", "{78B1CF0E-F4DA-49FF-8B46-7E324DA15424}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTypeViewer", "MyTypeViewer\MyTypeViewer.csproj", "{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MyTypeViewer", "MyTypeViewer\MyTypeViewer.csproj", "{FE69A4D6-8FFB-4B0C-8C7A-6D48B8B11E54}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalAssemblyReflector", "ExternalAssemblyReflector\ExternalAssemblyReflector.csproj", "{F9FA1A5F-A7EB-4C44-B9E7-EC1ABA1A7576}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExternalAssemblyReflector", "ExternalAssemblyReflector\ExternalAssemblyReflector.csproj", "{F9FA1A5F-A7EB-4C44-B9E7-EC1ABA1A7576}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FrameworkAssemblyViewer", "FrameworkAssemblyViewer\FrameworkAssemblyViewer.csproj", "{D7FA83B0-6BBA-4DCE-BCFC-701B9AF52329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FrameworkAssemblyViewer", "FrameworkAssemblyViewer\FrameworkAssemblyViewer.csproj", "{D7FA83B0-6BBA-4DCE-BCFC-701B9AF52329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LateBindingApp", "LateBindingApp\LateBindingApp.csproj", "{DC87A11C-6DC3-4155-99CC-07C6155929FB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "LateBindingApp", "LateBindingApp\LateBindingApp.csproj", "{DC87A11C-6DC3-4155-99CC-07C6155929FB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ApplyingAttributes", "ApplyingAttributes\ApplyingAttributes.csproj", "{12ACED31-8317-4571-BCD3-4B7C5DD1B0BD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AttributedCarLibrary", "AttributedCarLibrary\AttributedCarLibrary.csproj", "{D21607BE-52A7-4180-A9F2-2DD333D2F35A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDescriptionAttributeReader", "VehicleDescriptionAttributeReader\VehicleDescriptionAttributeReader.csproj", "{BFA1C41B-AB89-41E4-987A-3CAFA878959A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "VehicleDescriptionAttributeReaderLateBinding", "VehicleDescriptionAttributeReaderLateBinding\VehicleDescriptionAttributeReaderLateBinding.csproj", "{EBA8FF75-A379-4B93-9F6C-00DA4DC0EC4D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
-	EndGlobalSection
-	GlobalSection(SolutionProperties) = preSolution
-		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{C326C118-E1D2-41B7-9E40-0FBEBBCEAF6E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
@@ -150,5 +155,27 @@ Global
 		{DC87A11C-6DC3-4155-99CC-07C6155929FB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DC87A11C-6DC3-4155-99CC-07C6155929FB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DC87A11C-6DC3-4155-99CC-07C6155929FB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12ACED31-8317-4571-BCD3-4B7C5DD1B0BD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12ACED31-8317-4571-BCD3-4B7C5DD1B0BD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12ACED31-8317-4571-BCD3-4B7C5DD1B0BD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12ACED31-8317-4571-BCD3-4B7C5DD1B0BD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D21607BE-52A7-4180-A9F2-2DD333D2F35A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D21607BE-52A7-4180-A9F2-2DD333D2F35A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D21607BE-52A7-4180-A9F2-2DD333D2F35A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D21607BE-52A7-4180-A9F2-2DD333D2F35A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BFA1C41B-AB89-41E4-987A-3CAFA878959A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BFA1C41B-AB89-41E4-987A-3CAFA878959A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BFA1C41B-AB89-41E4-987A-3CAFA878959A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BFA1C41B-AB89-41E4-987A-3CAFA878959A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBA8FF75-A379-4B93-9F6C-00DA4DC0EC4D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBA8FF75-A379-4B93-9F6C-00DA4DC0EC4D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBA8FF75-A379-4B93-9F6C-00DA4DC0EC4D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBA8FF75-A379-4B93-9F6C-00DA4DC0EC4D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {61D27C51-B5DE-4C09-B280-0CBBB64C0AE6}
 	EndGlobalSection
 EndGlobal
