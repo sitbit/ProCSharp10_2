@@ -36,6 +36,7 @@
         {
             // stringField = s
             // intField = i
+            ret
         }
 
         .method public hidebysig specialname
@@ -46,13 +47,44 @@
         .method public hidebysig specialname
           instance void set_TheString(string 'value') cil managed
         {
-
+            ret
         }
         .property instance string TheString()
         {
             .get instance string MyNamespace.MyBaseClass::get_TheString()
             .set instance void MyNamespace.MyBaseClass::set_TheString(string)
         }
+
+        .method public static void MyMethod(int32 inputInt,
+            int32 &refInt,
+            class [System.Runtime.Extensions]System.Collections.ArrayList ar,
+            [out] int32 &outputInt) cil managed
+        {
+            ret
+        }
+
+        .method public hidebysig static void MyLocalVariables() cil managed
+        {
+            .maxstack 8
+            .locals init (string myString, int32 myInt, object myObj)
+            ldstr "CIL code is fun!"
+            stloc.0
+            ldc.i4.s 33
+            stloc.1
+
+            newobj instance void [mscorlib]System.Object::.ctor()
+            stloc.2
+            ret
+        }
+
+        .method public hidebysig static int32 Add(int32 a, int32 b)
+        {
+            .maxstack 2
+            ldarg.0
+            ldarg.1
+            add
+        }
+
     }
     .class public MyDerivedClass
         extends MyNamespace.MyBaseClass
