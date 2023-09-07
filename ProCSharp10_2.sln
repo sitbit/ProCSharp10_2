@@ -75,6 +75,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RoundTrip", "RoundTrip\Roun
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAsmBuilder", "DynamicAsmBuilder\DynamicAsmBuilder.csproj", "{A2190A3E-BA9B-4559-ABDF-DCAC163EA519}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfoDemo", "DirectoryInfoDemo\DirectoryInfoDemo.csproj", "{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -209,6 +211,10 @@ Global
 		{A2190A3E-BA9B-4559-ABDF-DCAC163EA519}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A2190A3E-BA9B-4559-ABDF-DCAC163EA519}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A2190A3E-BA9B-4559-ABDF-DCAC163EA519}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
