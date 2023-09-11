@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DynamicAsmBuilder", "Dynami
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DirectoryInfoDemo", "DirectoryInfoDemo\DirectoryInfoDemo.csproj", "{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleFileIO", "SimpleFileIO\SimpleFileIO.csproj", "{E509A750-3EB1-4D83-819D-B8B4D7BB22A2}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -215,6 +217,10 @@ Global
 		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7254C5BA-977B-4B0B-8A5F-A344B6E0A547}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E509A750-3EB1-4D83-819D-B8B4D7BB22A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E509A750-3EB1-4D83-819D-B8B4D7BB22A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E509A750-3EB1-4D83-819D-B8B4D7BB22A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E509A750-3EB1-4D83-819D-B8B4D7BB22A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
